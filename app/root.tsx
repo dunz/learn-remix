@@ -133,10 +133,10 @@ function Layout({ children }: { children: React.ReactNode }) {
                 <Link to="/">Home</Link>
               </li>
               <li>
-                <a href="https://remix.run/docs">Remix Docs</a>
+                <Link to="/posts">Posts</Link>
               </li>
               <li>
-                <a href="https://github.com/remix-run/remix">GitHub</a>
+                <Link to="/admin">Admin</Link>
               </li>
             </ul>
           </nav>
